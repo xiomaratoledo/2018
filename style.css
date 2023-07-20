@@ -1,0 +1,339 @@
+﻿html,body{
+	height:100%;
+	width:100%;
+}
+.navbar{
+	background-color: #5e4485;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 10 15px 5px;
+	
+}
+#logo{
+	color:#d5d5d5;
+}
+.navbar-default .navbar-nav li a{
+	color: #d5d5d5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:.active{
+	color: #fff;
+}
+#home {
+	background: url(img/Preserve-Fall-Leaves-Homepage.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+}
+.landing-text h1{
+	font-size: 500%;
+	font-weight:700;
+}
+.landing-text h2{
+	font-size: 300%;
+	font-weight:500;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+#fixed {
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size:cover;
+}
+footer {
+	width: 100%;
+	background-color:#23415c;
+	padding:5% 5% 10% 5%;
+	color:#fff;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px){
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon{
+		padding-top:5%;
+		max-width: 100px;
+	}
+}
+.border-how{
+	border-style: solid ;
+	border-width: 3px;
+	border-color: #5e4485;
+	padding: 2%;
+}
+.text-color1{
+	color: #5e4485;
+}
+#howfixed1{
+	background: url(img/background.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size:cover;	
+}
+
+.carousel-inner img{
+	width: 100%;
+	height:100%;
+}
+.carousel-caption{
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h3{
+	font-size: 200px;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+.btn-primary{
+	background-color: #6648b1;
+	border: 1px solid #563d7c;
+}
+.btn-primary:hover{
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+
+
+
+
+
+
+
+
+
+
+/*#23415c*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**html,body{
+	height: 100px;
+	width: 100px;
+}
+
+.navbar{
+	background-color:#23415c;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+	color:#d5d5d5;
+}
+.navbar-deafult .navbar-nav li a:hover, .navbar-default .navbar-nav li a:.active{
+	color:#fff;
+}
+#home{
+	background: url(img/mountains.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 100px;
+	position:relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+}
+.padding{
+	padding: 80px 0;
+}
+.padding img{
+	width: 100%;
+}
+#fixed: {
+	background: url(img/background.jpg) no-repeat center center;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer{
+	width: 100%;
+	background-color : #23415c;
+	padding: 5% 5% 10% 5%;
+	color: #fff;
+}
+.fa:hover{
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.icon{
+	max-width: 200px;
+}
+@media (max-width: 768px) {
+	.landing-text h3 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5px;
+		max-width: 100px;
+
+	}
+}
+**/
+
+
+
+
+
+
+/*--- iOS Landing Page Fix
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+#home {
+	background-image: url('img/mountains.jpeg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+--*/
+
+/*--- iOS Fixed Image Fix
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#fixed {
+	background-image: url('img/background.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+--*/
+
